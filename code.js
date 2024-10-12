@@ -105,6 +105,19 @@ function rest() {
     setTimeout(cle , 200)
 }
 function swo() {
+    if (g == 0) {
+    qu = document.getElementById("que")
+    an = document.getElementById("ans")
+    qu.style.height = "60px"
+    qu.style.fontSize = "50px"
+    an.style.height = "30px"
+    an.style.fontSize = "26px"
+    an.style.borderRadius = "5px"
+    qu.style.color = "white"
+    qu.style.borderRadius = "30px"
+    m = 1
+    }
+    else if (g == 1) {
     qu = document.getElementById("que")
     an = document.getElementById("ans")
     qu.style.height = "60px"
@@ -115,6 +128,7 @@ function swo() {
     qu.style.color = "black"
     qu.style.borderRadius = "30px"
     m = 1
+    }
 }
 m = 1
 function sho() {
@@ -148,6 +162,7 @@ function sho() {
     m = 0
     
     }
+    
 }
 
 function dor() {
@@ -172,10 +187,10 @@ function theme() {
 }
 function themee() {
     if ( g == 1) {
+    document.body.style.background = "black"
     document.getElementById("calcbod").style.background = "black"
     document.getElementById("del").style.color= "white"
     document.getElementById("theme").style.color= "white"
-    document.getElementById("his").style.color= "white"
     document.getElementById("ans").style.color = "white"
     document.getElementById("b5").style.background = "orangered"
     document.getElementById("bl").style.background = "rgb(70,200,70)" ;
@@ -216,10 +231,10 @@ function themee() {
                             }
                             
    else if (g == 0) {
+   document.body.style.background = "white"
        document.getElementById("calcbod").style.background = "white"
     document.getElementById("del").style.color= "black"
-    document.getElementById("theme").style.color= "black" 
-    document.getElementById("his").style.color= "black"
+    document.getElementById("theme").style.color= "black"
     document.getElementById("ans").style.color = "black"
     document.getElementById("b5").style.background = "orangered"
     document.getElementById("bl").style.background = "rgb(70,200,70)" ;

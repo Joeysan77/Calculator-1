@@ -3,12 +3,13 @@ html , body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: black;
+    background: white;
 }
 body {
     font-family: samsung-sans;
     font-weight: 1000;
     transition: 0.5s;
+    background: white;
 }
 @font-face  {
     font-family: 'samsung-sans';
@@ -22,13 +23,21 @@ body ,button  , p , input {
 #calcbod {
     background: white;
     height: 90%;
-    width: 98%;
+    width: 97%;
     padding-top: 10%;
     padding-left: 1%;
     padding-right: 1%;
 }
 * {
     transition: 0.3s;
+}
+#tools button i {
+    font-size: 35px;
+    
+}
+#tools button {
+    background: transparent;
+    border: none;
 }
 #que {
     width: 94%;
@@ -60,21 +69,24 @@ body ,button  , p , input {
 }
 #tools {
     margin-top: 50px;
-    width: 90%;
-    margin-left: 5%;
+    width: 94%;
     border-style: solid;
     border-width:0px 0px 1px  0px;
     border-color: darkgrey;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 i {
     font-size: 30px;
 }
 #tools i {
-    margin-right: 20px;
+    flex: 1;
 }
 #del {
-    margin-left:74%;
+    
 }
 #num1 {
     width: 95%;
