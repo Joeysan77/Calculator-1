@@ -36,11 +36,9 @@ function go0() {
 function goplu() {
     document.getElementById("que").value += "+"
 }function gomin() {
-    qu = document.getElementById("que")
-    quer = qu.value
-    queg = ("-" + quer)
-    qu.value = queg
-}function gomul() {
+ document.getElementById("que").value += "-"
+ }
+ function gomul() {
     document.getElementById("que").value += "*"
 }function godiv() {
     document.getElementById("que").value += "/"
