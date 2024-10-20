@@ -61,7 +61,7 @@ body ,button  , p , input {
     margin-left:1.5% ;
     background: rgb(100,255,100,0.2);
     margin-top: 19px;
-    direction: rtl;
+    text-align:right;
     padding-top: 10px;
     font-size: 26px;
     padding-right: 10px;

@@ -15,6 +15,9 @@ function go4() {
 function go5() {
     document.getElementById("que").value += "5"
 }
+function dot() {
+    document.getElementById("que").value += "."
+}
 function go6() {
     document.getElementById("que").value += "6"
 }
