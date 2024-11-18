@@ -1,3 +1,4 @@
+alert('TBOY')
 g = 1
 function go1() {
          document.getElementById("que").value += "1"
